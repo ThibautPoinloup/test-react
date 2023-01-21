@@ -1,0 +1,32 @@
+.footer{
+    padding: 15px;
+    background-color: rgb(185, 185, 185);
+    &__ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(57, 60, 230);
+        
+        &__li{
+            list-style-type: none;
+            &__a{
+                text-decoration: none;
+                color: rgba(57, 60, 230);
+            }
+        }
+    }
+    &__paragraph{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .footer{
+        &__ul{
+            justify-content: flex-start;
+        }
+        &__paragraph{
+            text-align: start;
+        }
+    }
+}

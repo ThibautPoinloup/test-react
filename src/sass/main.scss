@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@import './layouts/nav';
+@import './layouts/header';
+@import './layouts/cards';
+
+span{
+    width: 50%;
+    height: 2px;
+    display: block;
+    margin: 0 auto 30px;
+    background-color: rgb(143, 143, 143);
+}
+
+@import './layouts/footer';
+@import './layouts/formulaire';
+
+@media screen and (min-width: 1200px){
+    main, nav{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
