@@ -5,60 +5,56 @@ function App() {
   return (
     <div>
       <body>
-    <nav class="nav">
-      <a href="#top" class="nav__brand">Brand</a>
-      <a href="" class="nav__sign">Sign up</a>
+    <nav className="nav">
+      <a href="#top" className="nav__brand">Brand</a>
+      <a href="" className="nav__sign">Sign up</a>
     </nav>
-    <header class="header">
-      <section class="header__section">
-        <h1 class="header__section__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <div class="header__section__email">
-          <input type="text" placeholder="Take your Email" class="header__section__email__input"/>
-          <button type="submit" id="submit" class="header__section__email__btn">Submit</button>
+    <header className="header">
+      <section className="header__section">
+        <h1 className="header__section__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <div className="header__section__email">
+          <input type="text" placeholder="Take your Email" className="header__section__email__input"/>
+          <button type="submit" id="submit" className="header__section__email__btn">Submit</button>
         </div>
       </section>
     </header>
     <main>
-      <div class="cards">
+      <div className="cards">
         <Card/>
         <Card/>
         <Card/>
         <Card/>
     </div>
       <span></span>
-      <section class="formulaire">
-        <h2 class="formulaire__title">Contact Us !</h2>
-        <form action="POST" class="formulaire__form">
-          <div class="formulaire__form__name">
-            <label for="firstName" class="error-message" id="firstNameError">*</label>
-            <input name="firstName" id="firstName" type="text" placeholder="Nom" class="formulaire__form__name__input"/>
-            <input type="text" placeholder="Prénom" class="formulaire__form__name__input"/>
+      <section className="formulaire">
+        <h2 className="formulaire__title">Contact Us !</h2>
+        <form className="formulaire__form">
+          <div className="formulaire__form__name">
+            <label for="firstName" className="error-message" id="firstNameError">*</label>
+            <input name="firstName" id="firstName" type="text" placeholder="Nom" className="formulaire__form__name__input"/>
+            <input type="text" placeholder="Prénom" className="formulaire__form__name__input"/>
           </div>
-          <div class="formulaire__form__coordonnes">
-            <input type="email" placeholder="Adresse Email" class="formulaire__form__coordonnes__input"/>
-            <input type="tel" placeholder="Numéro de Téléphone" class="formulaire__form__coordonnes__input"/>
+          <div className="formulaire__form__coordonnes">
+            <input type="email" placeholder="Adresse Email" className="formulaire__form__coordonnes__input"/>
+            <input type="tel" placeholder="Numéro de Téléphone" className="formulaire__form__coordonnes__input"/>
           </div>
-          <textarea name="text" id="#" class="formulaire__form__textarea" placeholder="Tape ton message"></textarea>
-          <button class="formulaire__form__btn">Submit</button>
+          <textarea name="text" id="#" className="formulaire__form__textarea" placeholder="Tape ton message"></textarea>
+          <button className="formulaire__form__btn">Submit</button>
         </form>
       </section>
     </main>
-    <footer class="footer">
-        <ul class="footer__ul">
-            <li class="footer__ul__li"><a href="" class="footer__ul__li__a">About </a></li>
+    <footer className="footer">
+        <ul className="footer__ul">
+            <li className="footer__ul__li"><a href="" class="footer__ul__li__a">About </a></li>
             -
-            <li class="footer__ul__li"><a href="" class="footer__ul__li__a"> Contact </a></li>
+            <li className="footer__ul__li"><a href="" class="footer__ul__li__a"> Contact </a></li>
             -
-            <li class="footer__ul__li"><a href="" class="footer__ul__li__a"> Term of Us </a></li>
+            <li className="footer__ul__li"><a href="" class="footer__ul__li__a"> Term of Us </a></li>
             -
-            <li class="footer__ul__li"><a href="" class="footer__ul__li__a"> Privacy Policy</a></li>
+            <li className="footer__ul__li"><a href="" class="footer__ul__li__a"> Privacy Policy</a></li>
         </ul>
-        <p class="footer__paragraph">My Website 2022. All right reserved</p>
+        <p className="footer__paragraph">My Website 2022. All right reserved</p>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/417135100d.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
     </div>
   );
